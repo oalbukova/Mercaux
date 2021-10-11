@@ -1,0 +1,39 @@
+@import url(./__text/block__text.css);
+@import url(./__img/block__img.css);
+
+.block {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-areas: "content img";
+}
+
+.block.flipped {
+  grid-template-columns: 3fr 2fr;
+  grid-template-areas: "img content";
+}
+
+.block .block__img {
+  grid-area: img;
+}
+
+.block .block__text {
+  grid-area: content;
+}
+
+@media (max-width: 600px) {
+  .block {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "img"
+      "content";
+  }
+
+  .block.flipped {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "img"
+      "content";
+  }
+}

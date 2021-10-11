@@ -1,0 +1,5 @@
+@import url(./__content/footer__content.css);
+
+.footer {
+grid-area: footer;
+}
