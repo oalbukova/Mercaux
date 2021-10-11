@@ -1,0 +1,15 @@
+@import url(./__text/block__text.css);
+@import url(./__img/block__img.css);
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+@media (max-width: 600px) {
+  .block {
+    flex-direction: column;
+  }
+}

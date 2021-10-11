@@ -1,0 +1,23 @@
+.logo-list__item {
+  width: 13%;
+}
+
+@media (max-width: 700px) {
+  .logo-list__item {
+    width: 26%;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-list__item {
+    width: 35%;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-list__item {
+    width: 75%;
+    margin: 0 auto 40px;
+  }
+}

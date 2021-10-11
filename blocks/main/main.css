@@ -1,0 +1,15 @@
+.main {
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  line-height: 3rem;
+  background-color: #00b19d;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 20px;
+  }
+}
+

@@ -1,0 +1,13 @@
+@import url(./__item/logo-list__item.css);
+@import url(./__link/logo-list__link.css);
+@import url(./__img/logo-list__img.css);
+
+.logo-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
