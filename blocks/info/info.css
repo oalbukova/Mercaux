@@ -1,0 +1,9 @@
+@import url(./__img/info__img.css);
+@import url(./__title/info__title.css);
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 1rem;
+}
