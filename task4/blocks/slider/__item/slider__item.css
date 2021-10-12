@@ -1,22 +1,9 @@
-  /*  .slider__item {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-      counter-increment: slide;
-      height: 250px;
-      position: relative;
-    }*/
-/*
-    .slider__item::before {
-      content: counter(slide) "/5";
-      position: absolute;
-      top: 10px;
-      right: 20px;
-      color: #fff;
-      font-style: italic;
-      font-size: 32px;
-      font-weight: bold;
-      display: block;
-    }
-*/
+.slider__item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;;
+  counter-increment: slide;
+  user-select: none;
+  position: relative;
+}

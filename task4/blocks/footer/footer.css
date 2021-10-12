@@ -3,5 +3,5 @@
 .footer {
   display: flex;
   justify-content: end;
-  padding-right: 20px;
+  padding: 20px;
 }

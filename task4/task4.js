@@ -19,7 +19,7 @@ const SWIPE_THRESHOLD = 20;
 // класс для отключения transition
 const TRANSITION_NONE = "transition-none";
 
-function SimpleAdaptiveSlider(selector, config) {
+function SimpleAdaptiveSlider(selector) {
   // .slider
   this._$root = document.querySelector(selector);
   // .slider__wrapper
@@ -44,8 +44,8 @@ function SimpleAdaptiveSlider(selector, config) {
   // текущее значение трансформации
   this._transform = 0;
   // swipe параметры
-  // this._hasSwipeState = false;
-  // this._swipeStartPosX = 0;
+  this._hasSwipeState = false;
+  this._swipeStartPosX = 0;
   // id таймера
   this._intervalId = null;
   // конфигурация слайдера (по умолчанию)
@@ -53,7 +53,7 @@ function SimpleAdaptiveSlider(selector, config) {
     loop: true,
     autoplay: true,
     interval: 2000,
-    swipe: true,
+    swipe: false,
   };
 
   // добавляем к слайдам data-атрибуты
@@ -73,8 +73,7 @@ function SimpleAdaptiveSlider(selector, config) {
   }
   // обновляем экстремальные значения переменных
   this._refreshExtremeValues();
-  // помечаем активные элементы
-  // this._setActiveClass();
+
   // назначаем обработчики
   this._addEventListener();
   // запускаем автоматическую смену слайдов
@@ -111,7 +110,6 @@ SimpleAdaptiveSlider.prototype._move = function () {
   }
   this._transform = transform;
   this._$items.style.transform = "translateX(".concat(transform, "%)");
-  // this._setActiveClass();
 };
 
 // функция для перемещения к слайду по индексу
@@ -278,7 +276,8 @@ SimpleAdaptiveSlider.prototype._addEventListener = function () {
         diffPosX = diffPosX / 4;
       }
     }
-    const value = (diffPosX / this._$wrapper.getBoundingClientRect().width) * 100;
+    const value =
+      (diffPosX / this._$wrapper.getBoundingClientRect().width) * 100;
     const translateX = this._transform - value;
     this._$items.classList.add(TRANSITION_NONE);
     this._$items.style.transform = "translateX(".concat(translateX, "%)");
@@ -297,7 +296,8 @@ SimpleAdaptiveSlider.prototype._addEventListener = function () {
         diffPosX = diffPosX / 4;
       }
     }
-    const value = (diffPosX / this._$wrapper.getBoundingClientRect().width) * 100;
+    const value =
+      (diffPosX / this._$wrapper.getBoundingClientRect().width) * 100;
     this._$items.classList.remove(TRANSITION_NONE);
     if (value > SWIPE_THRESHOLD) {
       this._direction = "next";
@@ -369,19 +369,6 @@ SimpleAdaptiveSlider.prototype._addEventListener = function () {
   document.addEventListener("visibilitychange", onVisibilityChange.bind(this));
 };
 
-// перейти к следующему слайду
-SimpleAdaptiveSlider.prototype.next = function () {
-  this._direction = "next";
-  this._move();
-};
-
-// перейти к предыдущему слайду
-SimpleAdaptiveSlider.prototype.prev = function () {
-  this._direction = "prev";
-  this._move();
-};
-
-// управление автоматической сменой слайдов
-SimpleAdaptiveSlider.prototype.autoplay = function (action) {
-  this._autoplay("stop");
-};
+document.addEventListener("DOMContentLoaded", function () {
+  const slider = new SimpleAdaptiveSlider(".slider");
+});

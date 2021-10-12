@@ -32,54 +32,7 @@
       href="../images/favicon/safari-pinned-tab.svg"
       rel="mask-icon"
     />
-    <style>
-      *,
-      *::before,
-      *::after {
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-      }
-
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-          "Segoe UI Emoji", "Segoe UI Symbol";
-      }
-
-      .container {
-        max-width: 850px;
-        margin: 0 auto;
-      }
-
-      .slider__container {
-        padding-left: 0;
-        padding-right: 0;
-      }
-
-      .slider__items {
-        counter-reset: slide;
-      }
-
-      .slider__item {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 850px;
-        counter-increment: slide;
-      }
-
-      .slider__img {
-        width: 100%;
-        object-fit: contain;
-      }
-    </style>
-    <script defer src="./task4.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const slider = new SimpleAdaptiveSlider(".slider");
-      });
-    </script>
+    <!-- <script defer src="./task4.js"></script> -->
   </head>
 
   <body class="body">
@@ -93,31 +46,68 @@
             <div class="slider__wrapper">
               <div class="slider__items">
                 <div class="slider__item">
-                  <img src="../images/task4/Communication@2x.jpg"
-                  class="slider__img" />
+                  <img
+                    src="../images/task4/Communication@2x.jpg"
+                    class="slider__img"
+                    alt="A succinct description of the picture."
+                  />
+
+                  <p class="slider__text">
+                    «Если вы работаете над тем, что для вас действительно важно,
+                    вас не приходится подгонять. Вас тянет вперед ваша мечта», —
+                    Стив Джобс.
+                  </p>
                 </div>
                 <div class="slider__item">
-                  <img src="../images/task4/EndlessAisle@2x.jpg"
-                  class="slider__img" />
+                  <img
+                    src="../images/task4/EndlessAisle@2x.jpg"
+                    class="slider__img"
+                    alt="A succinct description of the picture."
+                  />
+                  <p class="slider__text">
+                    «Отправной точкой всех достижений является желание», —
+                    Наполеон Хилл.
+                  </p>
                 </div>
                 <div class="slider__item">
-                  <img src="../images/task4/SalesAssist@2x.jpg"
-                  class="slider__img" />
+                  <img
+                    src="../images/task4/SalesAssist@2x.jpg"
+                    class="slider__img"
+                    alt="A succinct description of the picture."
+                  />
+                  <p class="slider__text">
+                    «Избегайте тех, кто пытается подорвать вашу веру в себя. Эта
+                    черта свойственна мелким людям. Великий человек, наоборот,
+                    внушает вам чувство, что и вы можете стать великим», — Марк
+                    Твен.
+                  </p>
                 </div>
                 <div class="slider__item">
-                  <img src="../images/task4/StaffEmpowerment@2x.jpg"
-                  class="slider__img" />
+                  <img
+                    src="../images/task4/StaffEmpowerment@2x.jpg"
+                    class="slider__img"
+                    alt="A succinct description of the picture."
+                  />
+                  <p class="slider__text">
+                    Ребята, мне очень нравится это тесовое задание, оно реально
+                    интересное и разнообразное))) Для меня очень важно работать
+                    с таким профессионалами как Вы))) Я верю, что с Вами и я
+                    могу стать таким же профессионалом, влюбленным в свою
+                    профессию! И верю, что вы не пожалеете, если поверите в
+                    меня))) &#128521;
+                  </p>
                 </div>
               </div>
             </div>
-            <a href="#" class="slider__control" data-slide="prev"></a>
-            <a href="#" class="slider__control" data-slide="next"></a>
           </div>
+          <button class="slider__control" data-slide="prev"></button>
+          <button class="slider__control" data-slide="next"></button>
         </div>
       </div>
     </main>
     <footer class="footer">
       <p class="footer__content">&copy; 2021 Olga Albukova</p>
     </footer>
+    <script src="./task4.js"></script>
   </body>
 </html>

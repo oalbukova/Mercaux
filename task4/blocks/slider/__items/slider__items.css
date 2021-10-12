@@ -1,4 +1,5 @@
- /*  .slider__items {
-      counter-reset: slide;
-    }
-*/
+.slider__items {
+  counter-reset: slide;
+  display: flex;
+  transition: transform 0.5s ease;
+}
