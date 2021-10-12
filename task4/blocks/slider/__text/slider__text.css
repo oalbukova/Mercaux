@@ -1,0 +1,37 @@
+.slider__text {
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 15;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid #808080;
+  border-radius: 10px;
+  background-color: white;
+  position: absolute;
+  bottom: -50px;
+  right: 50px;
+}
+@media (max-width: 700px) {
+  .slider__text {
+    font-size: 12px;
+    max-width: 200px;
+    height: 130px;
+    bottom: -63px;
+    right: 27px;
+  }
+}
+
+@media (max-width: 500px) {
+  .slider__text {
+    font-size: 8px;
+    max-width: 135px;
+    height: 90px;
+    bottom: -30px;
+    right: 10px;
+    padding: 5px;
+  }
+}

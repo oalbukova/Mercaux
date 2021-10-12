@@ -1,0 +1,7 @@
+@import url(./__content/footer__content.css);
+
+.footer {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
