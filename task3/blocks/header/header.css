@@ -1,6 +1,7 @@
 @import url(./__title/header__title.css);
 
 .header {
-  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   grid-area: header;
 }

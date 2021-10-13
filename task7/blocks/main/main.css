@@ -1,0 +1,7 @@
+@import url(./__places/main__places.css);
+@import url(./__title/main__title.css);
+
+.main {
+  box-sizing: border-box;
+  flex: auto;
+}

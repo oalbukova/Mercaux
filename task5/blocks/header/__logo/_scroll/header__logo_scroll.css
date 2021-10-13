@@ -1,6 +1,5 @@
 .header__logo_scroll {
   background-image: url("../../../../../images/task5/frenchConnection_1.png");
-  width: 100px;
-  height: 30px;
+  transform: scale(.5, .5);
   transition: 1s linear;
 }

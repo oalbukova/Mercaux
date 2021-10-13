@@ -1,7 +1,8 @@
 .slider__img {
   width: 100%;
   object-fit: contain;
-  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   line-height: 3em;
   color: #000;
   text-align: center;
