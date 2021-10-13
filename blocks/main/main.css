@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  flex: auto;
 }
 
 @media (max-width: 500px) {

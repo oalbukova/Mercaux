@@ -1,0 +1,11 @@
+.block__text {
+  width: 40%;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .block__text {
+    width: 100%;
+    padding: 20px;
+  }
+}

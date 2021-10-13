@@ -6,4 +6,5 @@
   box-sizing: border-box;
   padding: 20px;
   margin: auto;
+  min-height: 100vh;
 }
