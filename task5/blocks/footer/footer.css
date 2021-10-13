@@ -5,4 +5,5 @@
   display: flex;
   justify-content: end;
   padding: 40px;
+  flex-shrink: 0;
 }

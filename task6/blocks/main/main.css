@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  flex: auto;
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 20px;
+  }
+}

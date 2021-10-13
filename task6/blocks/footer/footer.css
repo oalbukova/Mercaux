@@ -1,8 +1,9 @@
 @import url(./__content/footer__content.css);
 
 .footer {
+  background-color: #00b19d;
   display: flex;
   justify-content: end;
-  padding-right: 20px;
   flex-shrink: 0;
+  padding: 30px;
 }
