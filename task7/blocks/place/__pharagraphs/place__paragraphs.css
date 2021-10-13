@@ -1,0 +1,33 @@
+.place__paragraphs {
+  font-family: "Inter-Regular", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraphs {
+    max-width: 445px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place__paragraphs {
+    max-width: 355px;
+  }
+}
+
+@media (max-width: 670px) {
+  .place__paragraphs {
+    max-width: 650px;
+  }
+}

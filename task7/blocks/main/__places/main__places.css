@@ -1,0 +1,21 @@
+.main__places {
+  margin: 25px auto 0;
+}
+
+@media (max-width: 1024px) {
+  .main__places {
+    margin: 36px auto 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__places {
+    margin: 27px auto 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .main__places {
+    margin: -14px auto 0;
+  }
+}

@@ -1,5 +1,6 @@
 .main {
-  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   line-height: 3rem;
   background-color: #00b19d;
   display: flex;
@@ -13,4 +14,3 @@
     padding: 20px;
   }
 }
-

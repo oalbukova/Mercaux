@@ -3,7 +3,8 @@
   height: 400px;
   object-fit: contain;
   object-position: center;
-  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   color: #000;
   text-align: center;
   min-height: 3em;

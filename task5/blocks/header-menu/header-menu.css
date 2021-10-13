@@ -3,7 +3,8 @@
 @import url(./__link/header-menu__link.css);
 
 .header-menu {
-  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   width: 50%;
   display: flex;
   justify-content: end;

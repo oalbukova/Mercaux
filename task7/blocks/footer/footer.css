@@ -1,0 +1,11 @@
+.footer {
+  font-family: "Inter-Regular", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: end;
+  padding-right: 20px;
+  flex-shrink: 0;
+}

@@ -1,4 +1,5 @@
 .footer__content {
-  font-family: "Proxima Nova Rg", Arial, sans-serif;
+  font-family: "Inter-Regular", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
   text-align: end;
 }
