@@ -4,3 +4,9 @@
   justify-content: end;
   list-style-type: none;
 }
+
+@media (max-width: 500px) {
+  .header-menu__topmenu {
+    padding-inline-start: 20px;
+  }
+}
