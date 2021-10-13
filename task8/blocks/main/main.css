@@ -1,0 +1,14 @@
+.main {
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 20px;
+  }
+}
