@@ -1,0 +1,8 @@
+@import url(./__img/banner__img.css);
+
+.banner {
+  background-color: #fff;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
