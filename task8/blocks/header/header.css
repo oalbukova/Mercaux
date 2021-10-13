@@ -1,0 +1,8 @@
+@import url(./__title/header__title.css);
+
+.header {
+  font-family: "Inter-Bold", Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  display: flex;
+  text-align: center;
+}
