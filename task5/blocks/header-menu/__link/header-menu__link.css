@@ -1,0 +1,21 @@
+.header-menu__link {
+  display: block;
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.header-menu__link:hover {
+  color: #808080;
+}
+
+@media (max-width: 500px) {
+  .header-menu__link {
+    font-size: 10px;
+  }
+}

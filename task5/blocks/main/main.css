@@ -1,0 +1,6 @@
+@import url(./__title/main__title.css);
+
+.main {
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  display: flex;
+}

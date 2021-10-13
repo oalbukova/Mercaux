@@ -1,0 +1,14 @@
+@import url(./__logo/header__logo.css);
+
+.header {
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  background-color: #00b19d;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+}
