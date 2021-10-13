@@ -1,0 +1,3 @@
+.submenu__item_disabled {
+  pointer-events: none;
+}

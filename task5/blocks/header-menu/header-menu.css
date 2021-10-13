@@ -1,0 +1,10 @@
+@import url(./__topmenu/header-menu__topmenu.css);
+@import url(./__item/header-menu__item.css);
+@import url(./__link/header-menu__link.css);
+
+.header-menu {
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}

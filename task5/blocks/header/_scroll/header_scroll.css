@@ -1,0 +1,15 @@
+.header_scroll {
+  background-color: #000;
+  color: white;
+  height: 30px;
+  padding: 15px 5px;
+  transition: 1s linear;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  border: none;
+}
+
+.header_scroll + .main {
+  padding-top: 30px;
+}

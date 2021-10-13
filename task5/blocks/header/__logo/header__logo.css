@@ -1,0 +1,9 @@
+.header__logo {
+  background-image: url("../../../../images/task1/frenchConnection.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 150px;
+  height: 30px;
+  transition: 1s linear;
+}

@@ -1,0 +1,22 @@
+@import url(./__logo/header__logo.css);
+@import url(./__logo/_scroll/header__logo_scroll.css);
+
+.header {
+  width: 100%;
+  font-family: "Proxima Nova Bold", Arial, sans-serif;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-bottom: 2px #00b19d solid;
+  transition: 1s linear;
+}
+
+@media (max-width: 500px) {
+  .header {
+    padding: 10px 10px;
+  }
+}

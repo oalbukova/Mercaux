@@ -1,0 +1,20 @@
+@import url(./__link/submenu__link.css);
+@import url(./__item/submenu__item.css);
+
+.submenu {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 210px;
+  margin-left: -105px;
+  background: #fafafa;
+  border: 1px solid #ededed;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.8);
+}
