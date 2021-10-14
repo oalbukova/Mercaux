@@ -4,7 +4,6 @@
 
 .header-menu {
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   width: 50%;
   display: flex;
   justify-content: end;

@@ -4,17 +4,11 @@
   object-fit: contain;
   object-position: center;
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   color: #000;
   text-align: center;
   min-height: 3em;
   display: block;
   position: relative;
-}
-
-.block__img::before {
-  content: "The picture is broken :(";
-  display: block;
 }
 
 .block__img::after {

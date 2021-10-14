@@ -1,6 +1,5 @@
 @font-face {
   font-family: "Inter-Regular";
-  font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(../fonts/Inter-Regular/Inter-Regular.woff2) format("woff2"),
@@ -10,7 +9,6 @@
 
 @font-face {
   font-family: "Inter-Bold";
-  font-style: bold;
   font-weight: 700;
   font-display: swap;
   src: url(../fonts/Inter-Bold/Inter-Bold.woff2) format("woff2"),

@@ -1,6 +1,5 @@
 .slider__text {
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   display: -webkit-box;
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical;

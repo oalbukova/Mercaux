@@ -3,7 +3,5 @@
 @import url(./__link/nav__link.css);
 
 .nav {
-  font-family: "Inter-Regular", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   box-sizing: border-box;
 }

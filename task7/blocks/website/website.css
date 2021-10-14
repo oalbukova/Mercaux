@@ -2,8 +2,6 @@
 @import url(./__url-link/website__url-link.css);
 
 .website {
-  font-family: "Inter-Regular", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   max-width: 484px;
   display: -webkit-box;
   display: -ms-flexbox;

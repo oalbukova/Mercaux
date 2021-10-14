@@ -1,6 +1,4 @@
 .place__paragraphs {
-  font-family: "Inter-Regular", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

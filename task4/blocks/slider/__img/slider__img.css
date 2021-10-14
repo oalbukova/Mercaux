@@ -2,16 +2,10 @@
   width: 100%;
   object-fit: contain;
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   line-height: 3em;
   color: #000;
   text-align: center;
   min-height: 3em;
-}
-
-.slider__img::before {
-  content: "The picture is broken :(";
-  display: block;
 }
 
 .slider__img::after {
