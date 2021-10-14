@@ -3,5 +3,6 @@
 @import url(./__link/nav__link.css);
 
 .nav {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }

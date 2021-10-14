@@ -6,7 +6,6 @@
   line-height: 1.7;
 }
 
-
 @media (max-width: 1024px) {
   .place__text {
     line-height: 1.72;

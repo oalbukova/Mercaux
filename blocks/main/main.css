@@ -2,9 +2,15 @@
   font-family: "Inter-Bold", Arial, sans-serif;
   line-height: 3rem;
   background-color: #00b19d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 40px;
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
   flex: auto;
 }
 

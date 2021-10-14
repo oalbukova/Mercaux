@@ -20,7 +20,7 @@
 
 @media (max-width: 450px) {
   .banner__img {
-  padding-left: 195px;
-  padding-right: 195px;
+    padding-left: 195px;
+    padding-right: 195px;
   }
 }

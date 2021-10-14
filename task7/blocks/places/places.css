@@ -1,5 +1,6 @@
 .places {
   max-width: 984px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 

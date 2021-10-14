@@ -1,5 +1,5 @@
 .add-button {
-  background-image: url(../../../../images/task12/plus.svg);
+  background-image: url(../../../images/task12/plus.svg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,6 +12,7 @@
   border-radius: 2px;
   border: none;
   -webkit-transition: opacity linear 0.5s;
+  -o-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
 }
 

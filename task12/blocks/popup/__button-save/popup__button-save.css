@@ -12,6 +12,7 @@
   margin-right: 36px;
   margin-top: 28px;
   -webkit-transition: opacity linear 0.5s;
+  -o-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
 }
 

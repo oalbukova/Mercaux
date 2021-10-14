@@ -3,6 +3,8 @@
   color: white;
   height: 30px;
   padding: 15px 5px;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
   transition: 1s linear;
   position: fixed;
   top: 0;

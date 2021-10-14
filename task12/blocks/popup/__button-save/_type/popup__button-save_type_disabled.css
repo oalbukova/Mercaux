@@ -1,6 +1,7 @@
 .popup__button-save_type_disabled {
   background-color: #ffffff;
   color: black;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   border: 1px solid #000000;

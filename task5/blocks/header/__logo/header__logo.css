@@ -5,5 +5,7 @@
   background-position: center;
   width: 150px;
   height: 30px;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
   transition: 1s linear;
 }

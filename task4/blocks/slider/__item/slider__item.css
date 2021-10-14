@@ -2,8 +2,11 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100%;
   flex: 0 0 100%;
-  max-width: 100%;;
+  max-width: 100%;
   counter-increment: slide;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   position: relative;
 }

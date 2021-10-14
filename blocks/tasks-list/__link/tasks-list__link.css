@@ -1,6 +1,8 @@
 .tasks-list__link {
   color: #000;
   text-decoration: none;
+  -webkit-transition: opacity linear 0.5s;
+  -o-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
   cursor: pointer;
   opacity: 0.6;

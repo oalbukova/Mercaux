@@ -1,9 +1,14 @@
-@import url(./__content/footer__content.css);
-
 .footer {
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
   padding: 40px;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }
