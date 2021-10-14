@@ -4,7 +4,6 @@ const header = document.querySelector(".header");
 const headerLogo = document.querySelector(".header__logo");
 const sticky = header.offsetTop;
 
-
 function submenuClassListToggle(elem) {
   if (document.documentElement.clientWidth < 500)
     elem.classList.toggle("submenu_active");
