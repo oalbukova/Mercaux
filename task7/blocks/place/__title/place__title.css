@@ -1,6 +1,4 @@
 .place__title {
-  font-family: "Inter-Regular", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   font-size: 4.5rem;
   font-weight: 900;
   max-width: 457px;

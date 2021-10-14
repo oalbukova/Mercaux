@@ -1,6 +1,5 @@
 .main {
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   line-height: 3rem;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,4 @@
 .header {
-  font-family: "Inter-Regular", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   max-width: 1280px;
   display: flex;
   justify-content: end;

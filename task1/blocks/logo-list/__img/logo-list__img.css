@@ -1,3 +1,25 @@
 .logo-list__img {
   width: 100%;
+  object-fit: contain;
+  object-position: center;
+  font-family: "Inter-Bold", Arial, sans-serif;
+  color: #000;
+  text-align: center;
+  min-height: 3em;
+  display: block;
+  position: relative;
+}
+
+.logo-list__img::after {
+  content: " " " " attr(alt);
+  z-index: 1;
+  line-height: 3em;
+  color: rgb(100, 100, 100);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00b19d;
 }

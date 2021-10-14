@@ -1,4 +1,11 @@
 .body {
+  font-family: "Inter-Regular", Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
   min-width: 300px;
   min-height: 100vh;
   display: flex;

@@ -4,7 +4,6 @@
 .main {
   max-width: 1280px;
   font-family: "Inter-Bold", Arial, sans-serif;
-  text-rendering: optimizeLegibility;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
