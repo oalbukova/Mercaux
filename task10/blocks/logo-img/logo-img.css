@@ -1,8 +1,12 @@
 .logo-img {
   width: 100%;
+  -webkit-filter: invert(46%) sepia(78%) saturate(2111%) hue-rotate(141deg)
+    brightness(96%) contrast(101%);
   filter: invert(46%) sepia(78%) saturate(2111%) hue-rotate(141deg)
     brightness(96%) contrast(101%);
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
   font-family: "Inter-Bold", Arial, sans-serif;
 }

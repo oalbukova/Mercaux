@@ -1,6 +1,8 @@
 .logo-list__img {
   width: 100%;
+  -o-object-fit: contain;
   object-fit: contain;
+  -o-object-position: center;
   object-position: center;
   font-family: "Inter-Bold", Arial, sans-serif;
   color: #000;

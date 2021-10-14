@@ -1,5 +1,7 @@
 .header-menu__link {
   display: block;
+  -webkit-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   text-decoration: none;
   cursor: pointer;

@@ -12,12 +12,16 @@
   height: 12px;
   background: #d2d2d2;
   top: 3px;
+  -webkit-box-shadow: 4px -2px 0 #d2d2d2;
   box-shadow: 4px -2px 0 #d2d2d2;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
   transform: rotate(30deg);
 }
 
 .header-menu__item:last-child:after {
   background: none;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -25,6 +29,8 @@
   .header-menu__item:hover .submenu {
     visibility: visible;
     opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
     transform: scale(1);
   }
 }

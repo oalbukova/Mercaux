@@ -1,4 +1,6 @@
 .main__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 40px auto;
 }

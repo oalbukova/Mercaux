@@ -1,8 +1,11 @@
-@import url(./__content/footer__content.css);
-
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: end;
-  padding-right: 20px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
 }

@@ -5,6 +5,10 @@
 .header-menu {
   font-family: "Inter-Bold", Arial, sans-serif;
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
 }

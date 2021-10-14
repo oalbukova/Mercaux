@@ -1,9 +1,12 @@
-@import url(./__content/footer__content.css);
-
 .footer {
   background-color: #00b19d;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
+  -ms-flex-negative: 0;
   flex-shrink: 0;
   padding: 30px;
 }

@@ -1,4 +1,6 @@
 .main {
   position: relative;
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
   flex: auto;
 }

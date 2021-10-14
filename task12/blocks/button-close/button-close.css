@@ -14,11 +14,12 @@
   border: none;
   cursor: pointer;
   -webkit-transition: opacity linear 0.5s;
+  -o-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
 }
 
 .button-close:hover {
-  opacity: .6;
+  opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
 }
 

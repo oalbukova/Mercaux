@@ -1,6 +1,10 @@
 .popup_opened {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   opacity: 1;
   visibility: visible;
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
   transition-delay: 0s;
 }

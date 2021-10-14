@@ -6,12 +6,21 @@
   font-family: "Inter-Bold", Arial, sans-serif;
   background-color: #fff;
   height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 10px 20px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom: 2px #00b19d solid;
+  -webkit-transition: 1s linear;
+  -o-transition: 1s linear;
   transition: 1s linear;
 }
 

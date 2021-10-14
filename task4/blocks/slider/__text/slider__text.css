@@ -4,6 +4,7 @@
   -webkit-line-clamp: 15;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   max-width: 300px;
   height: 200px;
