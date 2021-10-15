@@ -3,7 +3,7 @@
   -o-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
   cursor: pointer;
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 .logo-list__link:hover {
