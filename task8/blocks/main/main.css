@@ -1,3 +1,5 @@
+@import url(./__title/main__title.css);
+
 .main {
   font-family: "Inter-Bold", Arial, sans-serif;
   line-height: 3rem;
