@@ -1,3 +1,5 @@
+@import url(./__title/main__title.css);
+
 .main {
   position: relative;
   -webkit-box-flex: 1;

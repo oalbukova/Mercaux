@@ -53,7 +53,7 @@ function SimpleAdaptiveSlider(selector) {
     loop: true,
     autoplay: true,
     interval: 2000,
-    swipe: false,
+    swipe: true,
   };
 
   // добавляем к слайдам data-атрибуты
