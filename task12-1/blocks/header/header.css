@@ -1,8 +1,0 @@
-@import url(./__title/header__title.css);
-
-.header {
-  font-family: "Inter-Bold", Arial, sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}

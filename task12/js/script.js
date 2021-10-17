@@ -1,60 +1,60 @@
-const addButton = document.querySelector(".add-button");
-const form = document.querySelector("#form");
-const popup = document.querySelector("#popup");
-const formCloseBtn = document.getElementById("form-close");
-
+const openBtn = document.querySelector(".add-button");
+const saveBtn = document.querySelector("#save");
+const registerCloseBtn = document.querySelector("#form-close");
 const confirm = document.querySelector("#confirm");
 const popupConfirm = document.querySelector("#popupConfirm");
 const confirmCloseBtn = document.getElementById("confirm-close");
+const popup = document.querySelector("#popup");
+const form = document.querySelector("#form");
+const nameInput = document.querySelector("#name-input");
+const surnameInput = document.querySelector("#surname-input");
+const emailInput = document.querySelector("#email-input");
+const ESCAPE_KEY = "Escape";
+const popupOpenedClass = "popup_opened";
 
-const formInput = Array.from(document.querySelectorAll(".popup__input"));
-const spanError = Array.from(document.querySelectorAll(".popup__span-error"));
+function clearInput() {
+  surnameInput.value = "";
+  nameInput.value = "";
+  emailInput.value = "";
+}
 
-function handleEscapeKeydown(evt) {
-  const formOpen = document.querySelector(".popup_opened");
-  if (evt.key === "Escape") {
-    togglePopup(formOpen);
+function openPopup(evt) {
+  evt.classList.add("popup_opened");
+  document.addEventListener("keyup", closePopupEsc);
+}
+
+function closePopup(elem) {
+  elem.classList.remove("popup_opened");
+  document.removeEventListener("keyup", closePopupEsc);
+}
+
+function closePopupEsc(evt) {
+  const popupOpened = document.querySelector(".popup_opened");
+  if (evt.key === ESCAPE_KEY) {
+    closePopup(popupOpened);
   }
 }
 
-function handleOverlayClick(evt) {
-  const formOpen = document.querySelector(".popup_opened");
-  if (evt.target.classList.contains("popup")) {
-    togglePopup(formOpen);
+function closePopupOverlay(evt) {
+  const popupOpened = document.querySelector(".popup_opened");
+  if (evt.target.classList.contains("popup_opened")) {
+    closePopup(popupOpened);
   }
 }
 
-function togglePopup(elem) {
-  const isOpen = elem.classList.contains("popup_opened");
-  if (!isOpen) {
-    document.addEventListener("keydown", handleEscapeKeydown);
-    document.addEventListener("click", handleOverlayClick);
-  } else {
-    document.removeEventListener("keydown", handleEscapeKeydown);
-    document.removeEventListener("click", handleOverlayClick);
-  }
-  elem.classList.toggle("popup_opened");
-}
-
-function checkForm(elem) {
-  const form = elem.querySelector("form");
-  if (form) {
-    elem.querySelector("form").checkForm();
-  }
-}
-
-function placeSubmitHandler(evt) {
+function handleSubmit(evt) {
   evt.preventDefault();
-  togglePopup(popup);
-  togglePopup(popupConfirm);
+  closePopup(popup);
+  openPopup(popupConfirm);
 }
 
-addButton.addEventListener("click", () => {
-  form.reset();
-  checkForm(popup);
-  togglePopup(popup);
+openBtn.addEventListener("click", () => {
+  clearInput();
+  checkOpenedPopup(popup);
+  openPopup(popup);
 });
 
-form.addEventListener("submit", placeSubmitHandler);
-formCloseBtn.addEventListener("click", () => togglePopup(popup));
-confirmCloseBtn.addEventListener("click", () => togglePopup(popupConfirm));
+registerCloseBtn.addEventListener("click", () => closePopup(popup));
+confirmCloseBtn.addEventListener("click", () => closePopup(popupConfirm));
+form.addEventListener("submit", handleSubmit);
+document.addEventListener("mousedown", closePopupOverlay);
