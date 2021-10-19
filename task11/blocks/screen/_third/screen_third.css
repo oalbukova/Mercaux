@@ -1,4 +1,5 @@
 .screen_third {
   background-image: url(../../../../images/task11/screen-3.jpg);
   position: relative;
+  display: none;
 }
