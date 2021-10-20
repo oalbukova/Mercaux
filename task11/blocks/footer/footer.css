@@ -1,8 +1,0 @@
-@import url(./__content/footer__content.css);
-
-.footer {
-  display: flex;
-  justify-content: end;
-  flex-shrink: 0;
-  padding: 15px;
-}

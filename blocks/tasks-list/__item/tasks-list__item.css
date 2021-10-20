@@ -1,5 +1,5 @@
 .tasks-list__item {
-  width: 150px;
+  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,8 +9,4 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.tasks-list__item_last {
-  width: 100%;
 }
